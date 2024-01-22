@@ -26,7 +26,7 @@ export default function DashboardLayout() {
   if (isLoadingBooking || isLoadingStays || isLoadingCabins)
     return <SpinnerMini />;
 
-  console.log(bookings);
+  //console.log(bookings);
   return (
     <StyledDashboardLayout>
       <Stats
