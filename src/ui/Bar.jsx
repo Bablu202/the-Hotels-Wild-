@@ -7,7 +7,7 @@ export default function Bar() {
     <StyledSideBar>
       <Logo />
       <MainNav />
-      <Uploader />
+      {/* <Uploader /> */}
     </StyledSideBar>
   );
 }

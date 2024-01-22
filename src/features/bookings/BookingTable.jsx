@@ -20,9 +20,7 @@ function BookingTable() {
           <div>Dates</div>
           <div>Status</div>
           <div>Amount</div>
-          <div></div>
         </Table.Header>
-
         <Table.Body
           data={bookings}
           render={(booking) => (
